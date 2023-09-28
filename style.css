@@ -1,0 +1,166 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+#topo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 10%;
+    height: 10%;
+    border-radius: 30%;
+}
+
+.center {
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+section a:hover {
+    color: blue;
+}
+
+section img{
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section a {
+    margin: 70px;
+    text-align: center;
+}
+
+section p {
+    margin-top: 10px;
+    font-size: 20px;   
+}
+
+#whatsapp img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    border-radius: 30%;
+}
+
+#whatsapp {
+    display: flex;
+    justify-content:left;
+}
+
+.centralizado {
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    width: 40%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+
+input[type=text] {
+    height: 100px;
+    
+}
+
+button {
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.layout {
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+@media all and (max-width: 768px) {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 16px;
+    }
+
+    #responsivo {
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    section {
+        flex-direction: column;
+        width: 100%;  
+    }
+
+    .center {
+        margin-top: 15%;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    input[type=text1] {
+        width: 100%;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+}
